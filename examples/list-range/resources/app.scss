@@ -1,0 +1,25 @@
+.b-container[data-ref="rangeDisplay"] {
+    gap         : 0.3em;
+    align-items : flex-start;
+    flex-wrap   : nowrap;
+    flex-shrink : 0;
+
+    > .b-field {
+        margin-bottom : 0;
+        min-width     : 8.5em;
+
+        input {
+            padding    : 0.8em 0.3em;
+            text-align : center;
+        }
+
+        .b-fieldtrigger {
+            &.b-align-start {
+                padding-inline: 0.3em 0;
+            }
+            &.b-align-end {
+                padding-inline: 0 0.3em;
+            }
+        }
+    }
+}

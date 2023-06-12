@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@bryntum/calendar": "npm:@bryntum/calendar-trial@^5.3.6",
+    "@bryntum/calendar-angular": "^5.3.6"
+  }
+}
